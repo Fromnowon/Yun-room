@@ -1,0 +1,44 @@
+body, div {
+    padding: 0;
+    margin: 0;
+}
+
+.course_list_div {
+    height: 600px;
+    width: 500px;
+    overflow: auto;
+}
+.course_list{
+    width: 100%;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+.course_date, .course_link, .course_play {
+    width: 100px;
+    border: 1px whitesmoke solid;
+    padding: 5px 0;
+}
+
+.course_name {
+    width: 200px;
+    border: 1px whitesmoke solid;
+}
+.course_th{
+    border: 1px whitesmoke solid;
+    background: cadetblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.player{
+    margin: 0 auto;
+    width: 90%;
+    height: 500px;
+    background: red;
+}
+.page{
+    margin-top: 10px;
+    font-size: 14px;
+    color: green;
+}
